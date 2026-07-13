@@ -1,0 +1,34 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-dev.yml
+application-local.yml
+local.properties
+
+# Dependencies and build output
+node_modules/
+dist/
+target/
+build/
+out/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.vs/
+*.iml
+*.suo
+.DS_Store
+Thumbs.db
+
+# Logs, caches, uploads and local data
+*.log
+logs/
+.cache/
+coverage/
+/uploads/
+/tmp/
+/temp/
+*.db
+*.sqlite

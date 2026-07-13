@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.ysu.backend.mapper.CheckitemMapper">
+
+    <resultMap id="CheckitemwithDeatil" type="edu.ysu.backend.entity.Checkitem">
+        <id property="ciid" column="ciid"/>
+
+        <collection property="checkitemdetailed" column="ciid" ofType="edu.ysu.backend.entity.Checkitemdetailed"
+                    select="edu.ysu.backend.mapper.CheckitemdetailedMapper.findbyciid"></collection>
+
+    </resultMap>
+
+</mapper>

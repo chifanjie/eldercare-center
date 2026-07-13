@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:default}
+security:
+  jwt:
+    secret: ${JWT_SECRET}
+storage:
+  upload-root: ${UPLOAD_ROOT}
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+logging:
+  level:
+    root: INFO
+    edu.ysu.backend: WARN
+    org.mybatis: WARN
+    com.baomidou.mybatisplus: WARN
