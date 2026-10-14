@@ -1,8 +1,8 @@
-# Eldercare backend — private source archive
+# 智慧养老服务中心后端
 
 课程团队项目；项目负责人 / 维护者：迟凡杰
 
-This repository is a source-only private archival copy of the reviewed backend current tree. Project code, build tools, package managers, and tests were not executed during sanitation, so runtime/build behavior is not asserted.
+本目录保存课程团队后端的脱敏源码。功能导航、技术架构、配置与 IDE 启动入口见 [仓库首页](../README.md)。本次公开整理未安装依赖或执行构建、测试，不能据此断言当前版本已经运行通过。
 
 ## Required configuration
 
